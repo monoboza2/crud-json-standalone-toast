@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-lg-4 offset-md-4 col-sm-12 md-5">
+            <form [formGroup]="FormData" role="form" (ngSubmit)="onSubmit(FormData.value)">
+                <div class="form-group mb-3">
+                    <h2>Update A Book</h2>
+                </div>
+
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <input type="text" formControlName="author" id="author" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" formControlName="country" id="country" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="language">Language</label>
+                    <input type="text" formControlName="language" id="language" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="pages">Pages</label>
+                    <input type="number" formControlName="pages" id="pages" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" formControlName="title" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="year">Year</label>
+                    <input type="text" id="year" formControlName="year" class="form-control">
+                </div>
+                <div class="mt-2">
+                    <button type="submit" class="btn btn-success" [disabled]="isloading">
+                        Update
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>

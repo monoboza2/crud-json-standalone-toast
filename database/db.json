@@ -1,0 +1,90 @@
+{
+  "posts": [
+    {
+      "author": "Jake Tapper",
+      "country": "Angola",
+      "language": "English",
+      "pages": 210,
+      "title": "Hellish",
+      "year": "2020",
+      "id": 1
+    },
+    {
+      "author": "awdawd",
+      "country": "Slovenia",
+      "language": "awddawd",
+      "pages": 222,
+      "title": "awdwad",
+      "year": 1222,
+      "id": 2
+    },
+    {
+      "author": "awdawdaw",
+      "country": "",
+      "language": "",
+      "pages": 200,
+      "title": "adsadafe",
+      "year": 2519,
+      "id": 3
+    },
+    {
+      "author": "ABC",
+      "country": "Sudan",
+      "language": "Persian (Farsi)",
+      "pages": 200,
+      "title": "ABC",
+      "year": 2010,
+      "id": 4
+    }
+  ],
+  "lend": [
+    {
+      "id": 1,
+      "name": "john",
+      "bookTitle": "My book",
+      "bookAuthor": "Babatunde",
+      "lendingDate": "string",
+      "returnDate": "string"
+    },
+    {
+      "name": "adwadaw",
+      "bookTitle": "Hellish",
+      "bookAuthor": "",
+      "lendingDate": "",
+      "returnDate": "",
+      "id": 2
+    },
+    {
+      "name": "wdadwa",
+      "bookTitle": "awdwad",
+      "bookAuthor": "",
+      "lendingDate": "",
+      "returnDate": "",
+      "id": 3
+    },
+    {
+      "name": "wdwawdaw",
+      "bookTitle": "adsadafe",
+      "bookAuthor": "",
+      "lendingDate": "",
+      "returnDate": "",
+      "id": 4
+    },
+    {
+      "name": "wdawq",
+      "bookTitle": "adsadafe",
+      "bookAuthor": "",
+      "lendingDate": "",
+      "returnDate": "",
+      "id": 5
+    },
+    {
+      "name": "ADqqq",
+      "bookTitle": "Hellish",
+      "bookAuthor": "",
+      "lendingDate": "",
+      "returnDate": "",
+      "id": 6
+    }
+  ]
+}
